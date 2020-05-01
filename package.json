@@ -25,7 +25,9 @@
   "homepage": "https://github.com/serverless-heaven/serverless-webpack#readme",
   "scripts": {
     "test": "nyc ./node_modules/mocha/bin/_mocha tests/all -R spec --recursive",
-    "eslint": "node node_modules/eslint/bin/eslint.js --ext .js lib"
+    "eslint": "node node_modules/eslint/bin/eslint.js --ext .js lib",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "nyc": {
     "exclude": [
@@ -46,7 +48,8 @@
     "is-builtin-module": "^1.0.0",
     "lodash": "^4.17.4",
     "semver": "^5.4.1",
-    "ts-node": "^3.2.0"
+    "ts-node": "^3.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -66,5 +69,6 @@
   },
   "peerDependencies": {
     "webpack": "*"
-  }
+  },
+  "snyk": true
 }
