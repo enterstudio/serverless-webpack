@@ -39,10 +39,10 @@
     "report-dir": "./coverage"
   },
   "dependencies": {
-    "archiver": "^2.0.0",
+    "archiver": "^5.0.0",
     "bluebird": "^3.5.0",
     "fs-extra": "^4.0.2",
-    "glob": "^7.1.2",
+    "glob": "^9.0.0",
     "is-builtin-module": "^1.0.0",
     "lodash": "^4.17.4",
     "semver": "^5.4.1",
