@@ -39,14 +39,14 @@
     "report-dir": "./coverage"
   },
   "dependencies": {
-    "archiver": "^2.0.0",
+    "archiver": "^5.3.1",
     "bluebird": "^3.5.0",
     "fs-extra": "^4.0.2",
     "glob": "^7.1.2",
     "is-builtin-module": "^1.0.0",
     "lodash": "^4.17.4",
     "semver": "^5.4.1",
-    "ts-node": "^3.2.0"
+    "ts-node": "^8.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
