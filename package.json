@@ -39,7 +39,7 @@
     "report-dir": "./coverage"
   },
   "dependencies": {
-    "archiver": "^2.0.0",
+    "archiver": "^7.0.0",
     "bluebird": "^3.5.0",
     "fs-extra": "^4.0.2",
     "glob": "^7.1.2",
